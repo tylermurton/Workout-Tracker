@@ -3,7 +3,7 @@ const routes = require("./controller/routes/routes");
 
 let mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/workouts', 
+mongoose.connect('process.env.MONGODB_URI', 
  {
   useNewUrlParser: true,
   useFindAndModify: false,
