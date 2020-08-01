@@ -4,7 +4,7 @@ const routes = require("./controller/routes/routes");
 let mongoose = require('mongoose');
 
 // ssaEwWGkvfpitOxt
-const MONGODB_URI = "mongodb+srv://tylermurton:ssaEwWGkvfpitOxt@cluster0.qdubq.mongodb.net/workouts?retryWrites=true&w=majority"
+// const MONGODB_URI = "mongodb+srv://tylermurton:ssaEwWGkvfpitOxt@cluster0.qdubq.mongodb.net/workouts?retryWrites=true&w=majority"
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workouts', 
  {
