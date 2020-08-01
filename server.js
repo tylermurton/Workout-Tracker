@@ -3,7 +3,9 @@ const routes = require("./controller/routes/routes");
 
 let mongoose = require('mongoose');
 
-mongoose.connect('process.env.MONGODB_URI', 
+mongodb+srv://dbUser:Merrychristmas@cluster0.qdubq.mongodb.net/workouts?retryWrites=true&w=majority
+
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workouts', 
  {
   useNewUrlParser: true,
   useFindAndModify: false,
