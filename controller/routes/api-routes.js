@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const db = require("../../models");
-const Workout = require('../../models/workout.js');
+const Workout = require('../../models/Workout.js');
 
 var apiRoutes = express.Router();
 
