@@ -4,7 +4,7 @@ const path = require("path");
 var routes = express.Router();
 
 const db = require("../../models");
-const Workout = require('../../models/workout');
+const Workout = require('../../models/Workout');
 
 
 routes.get('/', (req, res) => {
